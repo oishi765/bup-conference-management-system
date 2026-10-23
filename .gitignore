@@ -1,0 +1,95 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Production builds
+dist/
+dist-ssr/
+build/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local environment files
+*.local
+
+# Testing and coverage
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Vite
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# IDE and editor settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Windows
+$RECYCLE.BIN/
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# Supabase local development artifacts
+supabase/.temp/
+supabase/.branches/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.old
+
+# Debug files
+debug.log
+npm-debug.log*
+
+# Optional package manager caches
+.npm/
+.eslintcache
+
+# Generated archives
+*.zip
+
+# Generated reports
+report.html
